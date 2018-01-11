@@ -322,20 +322,34 @@ img::-moz-selection{color:#fff;background:0 0}
     background-size: cover;
 }
 
+.parallax2{
+      /* The image used */
+    background-color: rgba(140, 198, 63, 0.5);
+
+    /* Full height */
+    height: 10%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .albmBrdr {
 
     position: absolute;    
     z-index: 1;
-    width: 100%;
-    height: 100%;
-        padding-top: 20%;
+    width: 120%;
+    height: 120%;
+    padding-top: 0%;
 }
 .albmArt{
   z-index: 3;
-    width: 75%;
-    height: 75%;
-    padding-left: 30%;
-    padding-top: 25%;
+    width: 80%;
+    height: 80;
+    padding-left: 45%;
+    padding-top: 15%;
     padding-bottom: 5%;
 }
 /**
@@ -646,7 +660,7 @@ img::-moz-selection{color:#fff;background:0 0}
         filter: blur(0px);
     }
     50%{
-        filter: blur(5px);
+        filter: blur(10px);
     }
     100%{
         filter: blur(0px);
@@ -658,6 +672,7 @@ img::-moz-selection{color:#fff;background:0 0}
 .replace:hover{
     background-color: aqua;
 }
+
 @-webkit-keyframes flip {
     0%{
         opacity: 1;
