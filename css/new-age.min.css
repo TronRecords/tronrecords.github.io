@@ -285,7 +285,7 @@ img::-moz-selection{color:#fff;background:0 0}
 }
 
 .extRow{
-    background: linear-gradient(45deg,#29ABE2,#3AA17E); 
+    
     margin: auto;
 }
 
@@ -698,7 +698,7 @@ img::-moz-selection{color:#fff;background:0 0}
 }
 
 .contactTron{
-    font-family: 'Alegreya', serif; padding-top: 5%;font-size: 2em
+    font-family: 'Alegreya', serif; padding-top: 5%;font-size: 2em;
 }
 
 
