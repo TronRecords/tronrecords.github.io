@@ -39,7 +39,7 @@ hr{max-width:100px;
     color:#222;
     padding:8px 10px}
 .navbar-default .nav>li>a{font-size:11px}
-.navbar-default .nav>li>a,.navbar-default .nav>li>a:focus{color:#222}
+.navbar-default .nav>li>a,.navbar-default .nav>li>a:focus{color:#6f9112}
 .navbar-default .nav>li>a:focus:hover,.navbar-default .nav>li>a:hover{color:#fdcc52}
 .navbar-default .nav>li.active>a,.navbar-default .nav>li.active>a:focus{
     color:#fdcc52!important;background-color:transparent}
@@ -48,13 +48,13 @@ hr{max-width:100px;
 @media (min-width:768px){
     .navbar-default{background-color:transparent;border-color:transparent}
     .navbar-default .navbar-header .navbar-brand{color:rgba(255,255,255,.7)}
-    .navbar-default .navbar-header .navbar-brand:focus,.navbar-default .navbar-header .navbar-brand:hover{color:#000}
+    .navbar-default .navbar-header .navbar-brand:focus,.navbar-default .navbar-header .navbar-brand:hover{color:#17c124}
     .navbar-default .nav>li>a,.navbar-default .nav>li>a:focus{color:rgba(255,255,255,.7)}
-    .navbar-default .nav>li>a:focus:hover,.navbar-default .nav>li>a:hover{color:#000}
+    .navbar-default .nav>li>a:focus:hover,.navbar-default .nav>li>a:hover{color:#17c124}
     .navbar-default.affix{background-color:#fff;border-color:rgba(34,34,34,.1)}
-    .navbar-default.affix .navbar-header .navbar-brand{color:#222}
+    .navbar-default.affix .navbar-header .navbar-brand{color:#fdcc52}
     .navbar-default.affix .navbar-header .navbar-brand:focus,.navbar-default.affix .navbar-header .navbar-brand:hover{color:#fdcc52}
-    .navbar-default.affix .nav>li>a,.navbar-default.affix .nav>li>a:focus{color:#222}.navbar-default.affix .nav>li>a:focus:hover,.navbar-default.affix .nav>li>a:hover{color:#fdcc52}}
+    .navbar-default.affix .nav>li>a,.navbar-default.affix .nav>li>a:focus{color:#17c124}.navbar-default.affix .nav>li>a:focus:hover,.navbar-default.affix .nav>li>a:hover{color:#fdcc52}}
 header{position:relative;width:100%;min-height:auto;overflow-y:hidden;background-color:#000}
 header .header-content{text-align:center;padding:150px 0 50px;position:relative
 }header 
@@ -251,7 +251,13 @@ img::-moz-selection{color:#fff;background:0 0}
 
 .subHeader{
     text-align: center; 
-    color: azure; 
+    color: #222; 
+    font-size: 30pt;
+}
+
+subHeaderWhite{
+    text-align: center; 
+    color: #fff; 
     font-size: 30pt;
 }
 
@@ -308,12 +314,11 @@ img::-moz-selection{color:#fff;background:0 0}
 
 .parallax{
       /* The image used */
-    background-image: url(../img/core/Tron_bg.svg);
+    background-image: url(../img/core/Tron_bg.png);
 
-    /* Full height */
     height: 100%; 
-    
-    /* Create the parallax scrolling effect */
+
+    /* Create the parallax scroWlling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -698,7 +703,11 @@ img::-moz-selection{color:#fff;background:0 0}
 }
 
 .contactTron{
-    font-family: 'Alegreya', serif; padding-top: 5%;font-size: 2em;
+    font-family: 'Alegreya', serif; padding-top: 2.5%;font-size: 5em;
+}
+
+.contactTronSmall{
+    font-family: 'Alegreya', serif; padding-top: 2.5%;font-size: 2.5em;
 }
 
 
