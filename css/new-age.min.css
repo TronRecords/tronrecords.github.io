@@ -314,7 +314,7 @@ subHeaderWhite{
 
 .parallax{
       /* The image used */
-    background-image: url(../img/carousel/Tron_bg.png);
+    background-color: black;
     height: 100%; 
 
     /* Create the parallax scroWlling effect */
