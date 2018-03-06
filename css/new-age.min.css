@@ -314,7 +314,7 @@ subHeaderWhite{
 
 .parallax{
       /* The image used */
-    background-image: url(../img/core/Tron_bg.svg);
+    background-image: url(../img/core/Tron_bg.png);
     height: 100%; 
 
     /* Create the parallax scroWlling effect */
